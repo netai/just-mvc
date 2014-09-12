@@ -1,5 +1,9 @@
 just-mvc
 ===============
+follow:
+
+http://netai-nayek.blogspot.in/2014/09/create-application-using-mvc-structure.html
+
 this is a simple node.js mvc structure
 
 * Database
@@ -55,6 +59,8 @@ Refer to ORM document [Connecting to Database](https://github.com/dresende/node-
 		app.js						-- root
 
 Please check example
+
+http://netai-nayek.blogspot.in/2014/09/create-application-using-mvc-structure.html
 
 ##How to use
 
@@ -183,7 +189,7 @@ module.exports = {
             protocol: 'mysql',
             user: 'root',
             password: '123456789',
-            database: 'just-mvcc-test',
+            database: 'just-mvc-test',
             connectionLimit: 100
         }
     }
